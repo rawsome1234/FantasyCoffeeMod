@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "fantasycoffee:eldritch_beans"
+    },
+    "title": "The World of Coffee",
+    "description": "All five infi- I mean coffee beans",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "parent": "fantasycoffee:coffee_bean",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fantasycoffee:coffee_beans"
+            ]
+          },
+          {
+            "items": [
+              "fantasycoffee:molzen_beans"
+            ]
+          },{
+            "items": [
+              "fantasycoffee:frolen_beans"
+            ]
+          },{
+            "items": [
+              "fantasycoffee:hellfire_beans"
+            ]
+          },{
+            "items": [
+              "fantasycoffee:eldritch_beans"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

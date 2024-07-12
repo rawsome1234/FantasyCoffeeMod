@@ -1,0 +1,14 @@
+{
+  "type": "fantasycoffee:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_plains_house"
+    },
+    {
+      "chance": 0.6,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "fantasycoffee:coffee_beans"
+}

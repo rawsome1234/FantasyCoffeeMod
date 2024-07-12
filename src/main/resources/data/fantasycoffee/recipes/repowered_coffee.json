@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 4,
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:molzen_beans"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:repowered_coffee"
+  }
+}

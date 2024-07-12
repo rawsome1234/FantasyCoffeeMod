@@ -1,0 +1,310 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "mugs": 1,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 1,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug1",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 1,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug1",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 1,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "mugs": 2,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 2,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug2",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 2,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug2",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 2,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug2",
+        "y": 180
+      }
+    },{
+      "when": {
+        "mugs": 3,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 3,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug3",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 3,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug3",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 3,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug3",
+        "y": 180
+      }
+    },{
+      "when": {
+        "mugs": 4,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 4,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug4",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 4,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug4",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 4,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug4",
+        "y": 180
+      }
+    },{
+      "when": {
+        "mugs": 5,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 5,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug5",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 5,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug5",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 5,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug5",
+        "y": 180
+      }
+    },{
+      "when": {
+        "mugs": 6,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 6,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug6",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 6,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug6",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 6,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug6",
+        "y": 180
+      }
+    },{
+      "when": {
+        "mugs": 7,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 7,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug7",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 7,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug7",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 7,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug7",
+        "y": 180
+      }
+    },{
+      "when": {
+        "mugs": 8,
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "mugs": 8,
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug8",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "mugs": 8,
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug8",
+        "y": 270
+      }
+    },{
+      "when": {
+        "mugs": 8,
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug8",
+        "y": 180
+      }
+    }
+  ]
+}

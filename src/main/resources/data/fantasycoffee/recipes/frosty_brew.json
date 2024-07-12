@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 6,
+  "ticks": 600,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:frolen_beans"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:frosty_brew"
+  }
+}

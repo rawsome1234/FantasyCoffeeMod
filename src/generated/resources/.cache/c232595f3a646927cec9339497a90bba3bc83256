@@ -1,0 +1,6 @@
+// 1.20.1	2023-11-03T14:23:42.2860689	Global Loot Modifiers : fantasycoffee
+c2624a931e0bf36e4a2678a0136f29a7a54713f0 data/fantasycoffee/loot_modifiers/coffee_beans_from_village.json
+3ead52ac31bd0cdae21f77fa5322c55a679b9062 data/fantasycoffee/loot_modifiers/eldritch_beans_from_end_city.json
+4ab249d271416b127685352794d7645352bb1628 data/fantasycoffee/loot_modifiers/hellfire_beans_from_bastion_treasure.json
+059c63b6a8d499b173e0dacccb8fb54590270859 data/fantasycoffee/loot_modifiers/hellfire_beans_from_nether_fortress.json
+08056e24ff98d65ad3eb6fd6e04a9e4c93cfa230 data/forge/loot_modifiers/global_loot_modifiers.json

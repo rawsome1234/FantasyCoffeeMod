@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 4,
+  "ticks": 300,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:eldritch_beans"
+    },
+    {
+      "item": "minecraft:snow_block"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:cloud_coffee"
+  }
+}

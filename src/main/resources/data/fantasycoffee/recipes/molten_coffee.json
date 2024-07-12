@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 6,
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:hellfire_beans"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:molten_coffee"
+  }
+}

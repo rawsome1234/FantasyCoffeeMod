@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fantasycoffee:coffee_beans",
+    "fantasycoffee:frolen_beans",
+    "fantasycoffee:molzen_beans",
+    "fantasycoffee:hellfire_beans",
+    "fantasycoffee:eldritch_beans"
+  ]
+}

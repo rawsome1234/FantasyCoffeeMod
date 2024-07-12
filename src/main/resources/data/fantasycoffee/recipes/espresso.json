@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 3,
+  "ticks": 300,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:coffee_beans"
+    },
+    {
+      "item": "fantasycoffee:coffee_beans"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:espresso"
+  }
+}

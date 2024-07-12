@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 3,
+  "ticks": 200,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:molzen_beans"
+    },
+    {
+      "item": "minecraft:sunflower"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:summer_brew"
+  }
+}

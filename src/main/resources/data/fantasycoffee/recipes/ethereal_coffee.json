@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 6,
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:eldritch_beans"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:ethereal_coffee"
+  }
+}

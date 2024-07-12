@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 9,
+  "ticks": 600,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:hellfire_beans"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:blaze_brew"
+  }
+}

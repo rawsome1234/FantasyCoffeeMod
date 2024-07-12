@@ -1,0 +1,348 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "has_beans": "true",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_beans"
+      }
+    },
+    {
+      "when": {
+        "has_beans": "true",
+        "facing": "east"
+      },
+      "apply": {
+        "y": 90,
+        "model": "fantasycoffee:block/coffee_maker_beans"
+      }
+    },
+    {
+      "when": {
+        "has_beans": "true",
+        "facing": "south"
+      },
+      "apply": {
+        "y": 180,
+        "model": "fantasycoffee:block/coffee_maker_beans"
+      }
+    },
+    {
+      "when": {
+        "has_beans": "true",
+        "facing": "west"
+      },
+      "apply": {
+        "y": 270,
+        "model": "fantasycoffee:block/coffee_maker_beans"
+      }
+    },
+    {
+      "when": {
+        "brewed": "true",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_mug"
+      }
+    },
+    {
+      "when": {
+        "brewed": "true",
+        "facing": "west"
+      },
+      "apply": {
+        "y": 270,
+        "model": "fantasycoffee:block/coffee_maker_mug"
+      }
+    },
+    {
+      "when": {
+        "brewed": "true",
+        "facing": "south"
+      },
+      "apply": {
+        "y": 180,
+        "model": "fantasycoffee:block/coffee_maker_mug"
+      }
+    },
+    {
+      "when": {
+        "brewed": "true",
+        "facing": "east"
+      },
+      "apply": {
+        "y": 90,
+        "model": "fantasycoffee:block/coffee_maker_mug"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "water_stored": 1,
+            "facing": "north"
+          },
+          {
+            "water_stored": 2,
+            "facing": "north"
+          },
+          {
+            "water_stored": 3,
+            "facing": "north"
+          },
+          {
+            "water_stored": 4,
+            "facing": "north"
+          },
+          {
+            "water_stored": 5,
+            "facing": "north"
+          },
+          {
+            "water_stored": 6,
+            "facing": "north"
+          },
+          {
+            "water_stored": 7,
+            "facing": "north"
+          },
+          {
+            "water_stored": 8,
+            "facing": "north"
+          },
+          {
+            "water_stored": 9,
+            "facing": "north"
+          },
+          {
+            "water_stored": 10,
+            "facing": "north"
+          },
+          {
+            "water_stored": 11,
+            "facing": "north"
+          },
+          {
+            "water_stored": 12,
+            "facing": "north"
+          }
+        ]
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_water"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "water_stored": 1,
+            "facing": "west"
+          },
+          {
+            "water_stored": 2,
+            "facing": "west"
+          },
+          {
+            "water_stored": 3,
+            "facing": "west"
+          },
+          {
+            "water_stored": 4,
+            "facing": "west"
+          },
+          {
+            "water_stored": 5,
+            "facing": "west"
+          },
+          {
+            "water_stored": 6,
+            "facing": "west"
+          },
+          {
+            "water_stored": 7,
+            "facing": "west"
+          },
+          {
+            "water_stored": 8,
+            "facing": "west"
+          },
+          {
+            "water_stored": 9,
+            "facing": "west"
+          },
+          {
+            "water_stored": 10,
+            "facing": "west"
+          },
+          {
+            "water_stored": 11,
+            "facing": "west"
+          },
+          {
+            "water_stored": 12,
+            "facing": "west"
+          }
+        ]
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_water",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "water_stored": 1,
+            "facing": "east"
+          },
+          {
+            "water_stored": 2,
+            "facing": "east"
+          },
+          {
+            "water_stored": 3,
+            "facing": "east"
+          },
+          {
+            "water_stored": 4,
+            "facing": "east"
+          },
+          {
+            "water_stored": 5,
+            "facing": "east"
+          },
+          {
+            "water_stored": 6,
+            "facing": "east"
+          },
+          {
+            "water_stored": 7,
+            "facing": "east"
+          },
+          {
+            "water_stored": 8,
+            "facing": "east"
+          },
+          {
+            "water_stored": 9,
+            "facing": "east"
+          },
+          {
+            "water_stored": 10,
+            "facing": "east"
+          },
+          {
+            "water_stored": 11,
+            "facing": "east"
+          },
+          {
+            "water_stored": 12,
+            "facing": "east"
+          }
+        ]
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_water",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "water_stored": 1,
+            "facing": "south"
+          },
+          {
+            "water_stored": 2,
+            "facing": "south"
+          },
+          {
+            "water_stored": 3,
+            "facing": "south"
+          },
+          {
+            "water_stored": 4,
+            "facing": "south"
+          },
+          {
+            "water_stored": 5,
+            "facing": "south"
+          },
+          {
+            "water_stored": 6,
+            "facing": "south"
+          },
+          {
+            "water_stored": 7,
+            "facing": "south"
+          },
+          {
+            "water_stored": 8,
+            "facing": "south"
+          },
+          {
+            "water_stored": 9,
+            "facing": "south"
+          },
+          {
+            "water_stored": 10,
+            "facing": "south"
+          },
+          {
+            "water_stored": 11,
+            "facing": "south"
+          },
+          {
+            "water_stored": 12,
+            "facing": "south"
+          }
+        ]
+      },
+      "apply": {
+        "model": "fantasycoffee:block/coffee_maker_water",
+        "y": 180
+      }
+    }
+  ]
+}

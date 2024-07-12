@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fantasycoffee:coffee_item",
+    "fantasycoffee:latte",
+    "fantasycoffee:espresso",
+    "fantasycoffee:garbage",
+    "fantasycoffee:chilly_sweet_coffee",
+    "fantasycoffee:cookie_and_cream_coffee",
+    "fantasycoffee:frosty_brew",
+    "fantasycoffee:summer_brew",
+    "fantasycoffee:repowered_coffee",
+    "fantasycoffee:heart_attack",
+    "fantasycoffee:infernal_coffee",
+    "fantasycoffee:molten_coffee",
+    "fantasycoffee:blaze_brew",
+    "fantasycoffee:cloud_coffee",
+    "fantasycoffee:ethereal_coffee",
+    "fantasycoffee:ambrosia_blessing"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 9,
+  "ticks": 600,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:eldritch_beans"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:ambrosia_blessing"
+  }
+}

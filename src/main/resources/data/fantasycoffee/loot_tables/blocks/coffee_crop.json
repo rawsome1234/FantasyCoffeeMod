@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "fantasycoffee:molzen_beans",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "fantasycoffee:coffee_crop",
+                  "properties": {
+                    "biome_temp": "warm"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fantasycoffee:frolen_beans",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "fantasycoffee:coffee_crop",
+                  "properties": {
+                    "biome_temp": "cold"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fantasycoffee:coffee_beans",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "fantasycoffee:coffee_crop",
+                  "properties": {
+                    "biome_temp": "temperate"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "fantasycoffee:coffee_crop",
+          "properties": {
+            "age": "3"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fantasycoffee:coffee_beans"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "fantasycoffee:coffee_crop",
+          "properties": {
+            "age": "0"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fantasycoffee:coffee_beans"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "fantasycoffee:coffee_crop",
+          "properties": {
+            "age": "1"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fantasycoffee:coffee_beans"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "fantasycoffee:coffee_crop",
+          "properties": {
+            "age": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

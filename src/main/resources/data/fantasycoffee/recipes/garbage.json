@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 1,
+  "ticks": 100,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:coffee_beans"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:garbage"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "fantasycoffee:coffee",
+  "bottles": 6,
+  "ticks": 600,
+  "ingredients": [
+    {
+      "item": "fantasycoffee:molzen_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "item": "fantasycoffee:heart_attack"
+  }
+}
