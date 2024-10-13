@@ -5,6 +5,7 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -69,8 +70,19 @@ public class HellfireCrop extends CropBlock {
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         ModEnumProperties.BiomeTemperature temp = ModEnumProperties.BiomeTemperature.toEnum(context.getLevel().getBiome(context.getClickedPos()).get().getBaseTemperature());
-        if (temp == ModEnumProperties.BiomeTemperature.WARM) { return null; }
+        if (temp == ModEnumProperties.BiomeTemperature.COLD) { return null; }
         return this.defaultBlockState();
+    }
+
+    @Override
+    public boolean canSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos) {
+        // Combines the crop block and the bush block can survive to override the dimension
+        boolean first = (pLevel.getRawBrightness(pPos, 0) >= 8 || pLevel.canSeeSky(pPos));
+
+        BlockPos blockpos = pPos.below();
+        boolean second = this.mayPlaceOn(pLevel.getBlockState(blockpos), pLevel, blockpos);
+
+        return first && second;
     }
 
     @Override

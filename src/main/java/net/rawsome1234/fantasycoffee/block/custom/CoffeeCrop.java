@@ -1,10 +1,12 @@
 package net.rawsome1234.fantasycoffee.block.custom;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -66,6 +68,17 @@ public class CoffeeCrop extends CropBlock {
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(AGE);
         builder.add(BIOME_TEMP);
+    }
+
+    @Override
+    public boolean canSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos) {
+        // Combines the crop block and the bush block can survive to override the dimension
+        boolean first = (pLevel.getRawBrightness(pPos, 0) >= 8 || pLevel.canSeeSky(pPos));
+
+        BlockPos blockpos = pPos.below();
+        boolean second = this.mayPlaceOn(pLevel.getBlockState(blockpos), pLevel, blockpos);
+
+        return first && second;
     }
 
     @Nullable

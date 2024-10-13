@@ -5,6 +5,7 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CropBlock;
@@ -80,6 +81,17 @@ public class MolzenCrop extends CropBlock {
         this.registerDefaultState(this.stateDefinition.any().setValue(BIOME_TEMP,
                 temp));
         return this.defaultBlockState();
+    }
+
+    @Override
+    public boolean canSurvive(BlockState pState, LevelReader pLevel, BlockPos pPos) {
+        // Combines the crop block and the bush block can survive to override the dimension
+        boolean first = (pLevel.getRawBrightness(pPos, 0) >= 8 || pLevel.canSeeSky(pPos));
+
+        BlockPos blockpos = pPos.below();
+        boolean second = this.mayPlaceOn(pLevel.getBlockState(blockpos), pLevel, blockpos);
+
+        return first && second;
     }
 
     @Override
